@@ -67,7 +67,7 @@ public class PrimePanel extends JPanel {
                         boolean foundDivisor = false;
                         int j = 3;
 
-                        while(j < Math.sqrt(i) && !foundDivisor) {
+                        while(j <= Math.sqrt(i) && !foundDivisor) {
                             if(i % j == 0) {
                                 foundDivisor = true;
                             } else {
